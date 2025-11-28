@@ -1,7 +1,7 @@
 export default function StudentProfilePage() {
   const student = {
     name: "Nishanth P",
-    rollNumber: "21CS1234",
+    rollNumber: "2400031369",
     department: "Computer Science and Engineering",
     image: "/student-profile.jpg",
   };
@@ -48,3 +48,4 @@ const styles = {
     margin: "10px 0"
   }
 };
+
