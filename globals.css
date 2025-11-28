@@ -1,0 +1,59 @@
+/* Page background + centering */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #f3f4f6;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card layout */
+.card {
+  background: #ffffff;
+  padding: 24px 24px 28px;
+  border-radius: 16px;
+  width: 340px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+/* Image with hover pop effect */
+.profile-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 3px solid #d1d5db;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-image:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Text styles */
+.student-name {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 0.98rem;
+}
+
+.label {
+  font-weight: 600;
+  color: #374151;
+}
